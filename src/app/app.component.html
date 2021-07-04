@@ -1,0 +1,7 @@
+<header>
+  <h1>Hello and wellcome to My-Space</h1>
+ <div>{{user?.displayName}} 
+  <button *ngIf="!user" (click)="login()">Login</button>
+  <button *ngIf="user" (click)="logout()">Logout</button></div> 
+</header>
+<mat-slider min="1" max="100" step="1" value="1"></mat-slider>

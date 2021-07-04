@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "my-space-fd109"
+  },
+  "targets": {
+    "my-space-fd109": {
+      "hosting": {
+        "my-space": [
+          "my-space-fd109"
+        ]
+      }
+    }
+  }
+}
